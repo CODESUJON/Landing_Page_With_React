@@ -1,54 +1,72 @@
-# React + TypeScript + Vite
+# 🌐 Landing Page with React, TypeScript & Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=react&logoColor=white)
 
-Currently, two official plugins are available:
+> A sleek and responsive landing page built using **React**, **TypeScript**, and **Tailwind CSS**, with light/dark mode support and global state management via **Zustand**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- 🌗 Toggle between Dark and Light modes
+- ⚡ Blazing-fast development with Vite
+- 📦 Global state managed with Zustand
+- 🎨 Utility-first styling with Tailwind CSS
+- 🔐 Strong typing with TypeScript
+- 🛠️ Linting with ESLint and React hooks support
+- 📱 Fully responsive layout for all devices
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🧱 Tech Stack
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+| Category       | Tech            |
+|----------------|-----------------|
+| Framework      | [React](https://reactjs.org) |
+| Language       | [TypeScript](https://www.typescriptlang.org) |
+| Styling        | [Tailwind CSS](https://tailwindcss.com) |
+| State          | [Zustand](https://github.com/pmndrs/zustand) |
+| Build Tool     | [Vite](https://vitejs.dev) |
+| Linting        | [ESLint](https://eslint.org) |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/CODESUJON/Landing_Page_With_React
+
+
+### 1. Install Dependencies
+
+```bash
+npm install
+
+### 2. Start the Development Server
+npm run dev
+
+---
+
+## 🖼️ Preview 
+
+![Home_Dark](/ss/dark_mode_home.png)
+![Home_Light](/ss/light_mode.png)
+---
+Section
+---
+![Achievement](/ss/achievement.png)
+![About](/ss/about.png)
+![Service](/ss/service.png)
+![Priceing](/ss/price.png)
+![Footer](/ss/fotter.png)
+
+
+
