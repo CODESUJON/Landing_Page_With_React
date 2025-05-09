@@ -71,7 +71,7 @@ npm run dev
 ![Pricing](./ss/price.png)
 
 #### 🔚 Footer
-![Footer](./ss/footer.png)
+![Footer](./ss/fotter.png)
 
 
 
