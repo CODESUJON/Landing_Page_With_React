@@ -44,29 +44,34 @@
 ```bash
 git clone https://github.com/CODESUJON/Landing_Page_With_React
 
-
-### 1. Install Dependencies
-
 ```bash
-npm install
-
-### 2. Start the Development Server
 npm run dev
+```
+
+## 🖼️ Preview
+
+### 🌓 Home (Dark & Light Mode)
+![Dark Mode](./ss/dark_mode_home.png)
+![Light Mode](./ss/light_mode.png)
 
 ---
 
-## 🖼️ Preview 
+### 🧾 Sections
 
-![Home_Dark](/ss/dark_mode_home.png)
-![Home_Light](/ss/light_mode.png)
----
-Section
----
-![Achievement](/ss/achievement.png)
-![About](/ss/about.png)
-![Service](/ss/service.png)
-![Priceing](/ss/price.png)
-![Footer](/ss/fotter.png)
+#### 🎯 Achievements
+![Achievement](./ss/achievement.png)
+
+#### ℹ️ About
+![About](./ss/about.png)
+
+#### 🛠️ Services
+![Services](./ss/service.png)
+
+#### 💰 Pricing
+![Pricing](./ss/price.png)
+
+#### 🔚 Footer
+![Footer](./ss/footer.png)
 
 
 
